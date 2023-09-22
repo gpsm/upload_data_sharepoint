@@ -1,0 +1,10 @@
+{
+    "share_point": 
+        {
+            "user": "Sharepoint User Name",
+            "password": "Password",
+            "url": "Sharepoint URL",
+            "site": "Sharpoint site where we have to upload and download data",
+            "doc_library": "Documents/Shared Documents" 
+        }
+}

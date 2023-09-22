@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>434</width>
+    <height>149</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>434</width>
+    <height>150</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>eTearSheet Exporter</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(53, 53, 53);</string>
+  </property>
+  <widget class="QLabel" name="label_xmlPath">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>11</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+color: rgb(0, 191, 92);
+border: none;
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>XML File Path:</string>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="xmlFilePath">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid rgb(85, 85, 127);
+color: rgb(241, 241, 241);
+border-radius: 10px;</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="placeholderText">
+    <string>xml file path</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="browseButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>50</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: rgb(31, 22, 66);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+border-radius:10px;
+}
+QPushButton:hover{
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(26, 26, 26);
+background-color: rgb(208, 208, 208);
+border-radius:10px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exportButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>100</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: rgb(31, 22, 66);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+border-radius:10px;
+}
+QPushButton:hover{
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(26, 26, 26);
+background-color: rgb(208, 208, 208);
+border-radius:10px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Export</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

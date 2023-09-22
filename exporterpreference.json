@@ -1,0 +1,6 @@
+{
+    "EXPORTER_PARAMETERS": {
+    "BAT_FILE_PATH": "bat file path e.g: C:\\test.bat",
+    "XML_FILE_PATH": "xml file path e.g: D:\\abc.xml"
+    }
+}
